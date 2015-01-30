@@ -8,6 +8,24 @@ This is a record of regularly used git commands
 	git remote add origin git@github.com:kendokendo/"FOLDER"
 	git push -u origin master
 
+# After creating a file, if you want to upload it to you rep:
+	git add "FILENAME"
+   This tells git the file is ready to be written to the rep, but does not write it to the rep
+
+# To write a file to the rep:
+	git commit
+   This will write all the files that were "added". It will first open up a text editor (nano) and reuqest a change be made to the log.
+
+# To write a file to the rep without making having to open the log:
+	git commit -m "Enter change log or fix here"
+
+# To write add all the files in the folder & commit them: 
+	git commit -a
+
+# To push all the files to git hub:
+	git push
+   This will update your online rep.  This will permanently remove the current file on the online git with whatever you tell it to. 
+
 
 
 	
