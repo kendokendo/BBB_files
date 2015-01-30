@@ -1,0 +1,14 @@
+This is a record of regularly used git commands
+
+# To create a new local git
+	git init "FOLDER"
+   Then create a git rep in your git hub account 
+
+# To sync the online copy with the real copy
+	git remote add origin git@github.com:kendokendo/"FOLDER"
+	git push -u origin master
+
+
+
+	
+
