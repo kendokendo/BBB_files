@@ -29,5 +29,9 @@ This is a record of regularly used git commands
 # If you've lost track of the files you've committed to:
 	git status 
 
+# To track the changes to a particular file
+	git diff "FILENAME"
+   git diff without the filename will look at the entire folder and list the differences between the files in your folder
+   and the files that were committed.  It does not look at the online git rep.
 	
 
