@@ -1,10 +1,10 @@
 This is a record of regularly used git commands
 
-# To create a new local git
+# To create a new local git:
 	git init "FOLDER"
    Then create a git rep in your git hub account 
 
-# To sync the online copy with the real copy
+# To sync the online copy with the real copy:
 	git remote add origin git@github.com:kendokendo/"FOLDER"
 	git push -u origin master
 
@@ -26,7 +26,8 @@ This is a record of regularly used git commands
 	git push
    This will update your online rep.  This will permanently remove the current file on the online git with whatever you tell it to. 
 
-
+# If you've lost track of the files you've committed to:
+	git status 
 
 	
 
