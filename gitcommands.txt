@@ -1,5 +1,10 @@
 This is a record of regularly used git commands
-
+######################
+#         H          #
+#         O          #
+#         S          #
+#         T          #
+######################
 # To create a new local git:
 	git init "FOLDER"
    Then create a git rep in your git hub account 
@@ -35,3 +40,13 @@ This is a record of regularly used git commands
    and the files that were committed.  It does not look at the online git rep.
 	
 
+######################
+#         U          #
+#         S          #
+#         E          #
+#         R          #
+######################
+
+# To download a copy of an online rep:
+	git clone git@github.com:kendokendo/"REP NAME"
+   This will clone a local version of the online git 
